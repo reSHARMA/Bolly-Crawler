@@ -2,10 +2,12 @@ from bs4 import BeautifulSoup
 import urllib.request
 import urllib.parse
 f=open('movie.txt','w')
-#for i in range(65,65+26):
-#	i = str(chr(i))
-if(2==2):
-	i = "NUM"
+for i in range(65,65+27):
+	temp = i
+	if(temp == 91):
+		i = str(chr(i))
+	else:
+		i = "NUM"
 	r =  urllib.request.urlopen('http://www.bollywoodhungama.com/directory/movies-list/alphabet/'+i).read()
 	soup = BeautifulSoup(r,'html.parser')
 	page = 1
