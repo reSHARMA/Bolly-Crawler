@@ -4,7 +4,7 @@ import urllib.parse
 f=open('movie.txt','w')
 for i in range(65,65+27):
 	temp = i
-	if(temp == 91):
+	if(temp != 91):
 		i = str(chr(i))
 	else:
 		i = "NUM"
