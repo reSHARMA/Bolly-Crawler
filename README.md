@@ -1,6 +1,6 @@
 # Bolly-Crawler
-A web crawler for collecting data about bollywood movies
-#### Further used as input for movie data crawler ####
+A web crawler using  BeautifulSoup for collecting data about bollywood movies
+#### Further used as input for [movie data crawler](https://github.com/reSHARMA/movie-database-crawler) ####
 ## Output ##
 `b'Shab 2017'
 b'Shabab 1954'
@@ -44,6 +44,6 @@ b'Shahi Bazar 1957'
 `
 ### Run ###
 ***
-`python main.py`
+`python movie.py`
 
 #### compilable with python3.5 ####
